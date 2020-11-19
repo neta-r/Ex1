@@ -1,5 +1,4 @@
 package ex1;
-import java.io.FileNotFoundException;
 import java.util.List;
 /**
  * This interface represents an Undirected (positive) Weighted Graph Theory algorithms including:
@@ -72,5 +71,5 @@ public interface weighted_graph_algorithms {
      * @param file - file name
      * @return true - iff the graph was successfully loaded.
      */
-    public boolean load(String file) throws FileNotFoundException;
+    public boolean load(String file);
 }
