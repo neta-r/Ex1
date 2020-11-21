@@ -1,8 +1,8 @@
-package tests;
+package ex1.tests;
 
-import ex1.WGraph_Algo;
-import ex1.WGraph_DS;
-import ex1.node_info;
+import ex1.src.WGraph_Algo;
+import ex1.src.WGraph_DS;
+import ex1.src.node_info;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
